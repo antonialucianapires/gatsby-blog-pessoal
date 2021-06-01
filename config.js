@@ -3,8 +3,8 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Antonia Luciana Pires - Blog',
+  subtitle: 'Desenvolvedora em constante desenvolvimento. Brasil.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -12,31 +12,31 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Publicações',
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'Sobre mim',
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
+      label: 'Contato',
       path: '/pages/contacts'
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Antonia Luciana Pires',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Desenvolvedora em constante desenvolvimento. Brasil.',
     contacts: {
-      email: '',
+      email: 'antonialucianapires@gmail.com',
       facebook: '#',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: '/antonialucianapires',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
+      linkedin: '/antonialucianapires/',
       instagram: '#',
       line: '',
       gitlab: '',
@@ -44,7 +44,7 @@ module.exports = {
       codepen: '',
       youtube: '',
       soundcloud: '',
-      medium: '',
+      medium: '@antonialucianapires',
     }
   }
 };
