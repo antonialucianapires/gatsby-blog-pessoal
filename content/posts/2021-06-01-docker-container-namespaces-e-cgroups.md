@@ -23,7 +23,7 @@ Docker é uma ferramenta aberta (open source) que permite gerenciar os famosos c
 
 Entende-se por isolamento uma forma de empacotar uma aplicação com todos os recursos necessários para sua execução e, desse modo, o software sempre irá se comportar da mesma maneira, independente do ambiente (desenvolvimento, homologação e produção).
 
-![pacote em desenvolvimento, produção e homologação](https://miro.medium.com/max/880/0*cQ8QuGaFZPeA7Ggv.png "pacote")
+![pacote em desenvolvimento, produção e homologação](https://miro.medium.com/max/700/0*cQ8QuGaFZPeA7Ggv.png "pacote")
 
 # O que é Docker?
 
@@ -42,7 +42,7 @@ Essa separação, ou isolamento, é possível porque o Docker utiliza de dois re
 * Os [Namespaces](https://escotilhalivre.wordpress.com/2015/08/12/namespaces/) são responsáveis por gerar o isolamento de grupos de processos em seu nível lógico, como o gerenciamento de usuários, rede, etc., garantido que o container não enxergue os processos do host e vice-versa. Logo, ao criar um container, são criados namespaces como pid(Process ID) para isolar processos, net(Network) para controlar e isolar as redes de cada container,ipc(Inter Process Communication) que permite a comunicação entre processos, etc.
 * Para gerenciar os recursos físicos que são compartilhados entre esses processos existe o [Cgroups](https://access.redhat.com/documentation/pt-br/red_hat_enterprise_linux/6/html/resource_management_guide/ch01). Ele fornece ao Docker o poder de compartilhar CPU, memória, I/O, etc., entre o host e o container. Além disso, é possível limitar ou restringir esses recursos para containers específicos.
 
-![representação de namespaces e cgroups](https://miro.medium.com/max/880/0*SenPz_rdrQXd7nxL.png "namespaces e cgroups")
+![representação de namespaces e cgroups](https://miro.medium.com/max/700/0*SenPz_rdrQXd7nxL.png "namespaces e cgroups")
 
 # Conclusão
 
