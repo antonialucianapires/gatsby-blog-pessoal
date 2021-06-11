@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://www.antonialucianapires.dev',
   pathPrefix: '/',
   title: 'Antonia Luciana Pires - Blog',
   subtitle: 'Desenvolvedora em constante desenvolvimento. Brasil.',
