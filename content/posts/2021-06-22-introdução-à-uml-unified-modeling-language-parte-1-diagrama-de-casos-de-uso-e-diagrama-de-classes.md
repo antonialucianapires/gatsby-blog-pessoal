@@ -1,7 +1,6 @@
 ---
 template: post
-title: "Introdução à UML - (Unified Modeling Language) - Parte 1: Diagrama de
-  Casos de Uso e Diagrama de Classes"
+title: "UML: Diagrama de Casos de Uso e Diagrama de Classes"
 slug: introducao-a-uml
 socialImage: /media/uml-unified-modeling-language-logo.png
 draft: false
